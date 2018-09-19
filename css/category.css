@@ -1,0 +1,88 @@
+body{
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+.jd_category{
+    padding-top: 45px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.jd_category>.jd_category_left{
+    width: 90px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    padding-top: 45px;
+    overflow: hidden;
+}
+.jd_category>.jd_category_left>.jd_category_left_box>{
+}
+.jd_category>.jd_category_left>.jd_category_left_box>ul{
+}
+.jd_category>.jd_category_left>.jd_category_left_box>ul>li{
+    width: 90px;
+    height: 50px;
+    background-color: #f3f4f6;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+.jd_category>.jd_category_left>.jd_category_left_box>ul>li>a{
+    display: block;
+}
+.jd_category>.jd_category_left>.jd_category_left_box>ul>li.now{
+    background-color: #fff;
+    border-right: none;
+}
+.jd_category>.jd_category_left>.jd_category_left_box>ul>li.now a{
+    background-color: #fff;
+}
+
+.jd_category>.jd_category_right{
+    width: 100%;
+    padding-left: 90px;
+
+}
+.jd_category>.jd_category_right>.jd_category_right_box{
+    padding: 10px 12px;
+}
+.jd_category>.jd_category_right>.jd_category_right_box>.jd_banner{
+    width: 100%;
+}
+.jd_category>.jd_category_right>.jd_category_right_box>.jd_banner a img{
+    width: 100%;
+}
+.jd_category>.jd_category_right>.jd_category_right_box>.jd_catType{
+    margin-top: 20px;
+    font-size: 12px;
+
+}
+.jd_category>.jd_category_right>.jd_category_right_box>.jd_catType>h3{
+    color: #888;
+    margin-bottom: 10px;
+
+}
+.jd_category>.jd_category_right>.jd_category_right_box>.jd_catType li{
+    width: 33.333%;
+    text-align: center;
+    float: left;
+}
+.jd_category>.jd_category_right>.jd_category_right_box>.jd_catType li>img{
+    width: 62px;
+    height: 62px;
+    display: block;
+    margin: 0 auto;
+}
+.jd_category>.jd_category_right>.jd_category_right_box>.jd_catType li p{
+    line-height: 30px;
+}
